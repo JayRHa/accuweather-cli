@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "accuweather-cli"
+version = "0.1.0"
+description = "Production-ready CLI for current weather and forecasts via AccuWeather"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "accuweather==5.0.0",
+  "aiohttp>=3.9,<4.0",
+]
+
+[project.scripts]
+accuweather = "accuweather_cli.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
