@@ -1,3 +1,18 @@
+<!-- repo-standard:start -->
+# AccuWeather CLI
+
+CLI tool for fetching weather data and forecasts from AccuWeather.
+
+| Area | Stack | Visibility |
+| --- | --- | --- |
+| CLI Tooling | Python | Public |
+
+**Repository:** `JayRHa/accuweather-cli`  
+**Topics:** `accuweather`, `weather`, `cli`, `python`
+<!-- repo-standard:end -->
+
+---
+
 <div align="center">
   <h1>AccuWeather CLI</h1>
   <p><strong>Elegant terminal weather. Scriptable JSON. Production-ready workflows.</strong></p>
