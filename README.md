@@ -20,7 +20,7 @@ Build. Automate. Share.
 
 ## What is this?
 
-This repository provides cLI tool for fetching weather data and forecasts from AccuWeather.
+CLI tool for fetching weather data and forecasts from AccuWeather.
 
 > Browse the documentation below for setup notes, usage details, and project-specific context.
 
